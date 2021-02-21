@@ -23,8 +23,8 @@ find_package(
 
 # Message Generation
 set(msg_files
-  "msg/ShipsimPropCtrl.msg"
-  "msg/ShipsimRudderCtrl.msg"
+  "msg/PropellerState.msg"
+  "msg/RudderState.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
