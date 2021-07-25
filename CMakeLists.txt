@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(shipsim_msgs)
+project(shipcon_msgs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -23,10 +23,10 @@ find_package( geometry_msgs )
 
 # Message Generation
 set(msg_files
-  "msg/PropellerState.msg"
-  "msg/RudderState.msg"
-  "msg/ShipState.msg"
-  "msg/ShipStateStamped.msg"
+  "msg/shipinfo/PropellerState.msg"
+  "msg/shipinfo/RudderState.msg"
+  "msg/shipinfo/ShipState.msg"
+  "msg/shipinfo/ShipStateStamped.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
