@@ -23,10 +23,25 @@ find_package( geometry_msgs )
 
 # Message Generation
 set(msg_files
-  "msg/shipinfo/PropellerState.msg"
-  "msg/shipinfo/RudderState.msg"
-  "msg/shipinfo/ShipState.msg"
-  "msg/shipinfo/ShipStateStamped.msg"
+ "msg/device/common/SignalStatus.msg"
+ "msg/device/actuators/MotorCommand.msg"
+ "msg/device/actuators/MotorHealth.msg"
+ "msg/device/actuators/MotorInfo.msg"
+ "msg/device/actuators/RudderCommand.msg"
+ "msg/device/actuators/RudderHealth.msg"
+ "msg/device/actuators/RudderInfo.msg"
+ "msg/device/gnss/GnssClock.msg"
+ "msg/device/gnss/GnssHeading.msg"
+ "msg/device/gnss/GnssPosition.msg"
+ "msg/device/gyro/GyroInfo.msg"
+ "msg/device/power/BatteryInfo.msg"
+ "msg/device/power/PowerInfo.msg"
+ "msg/device/rc_control/JoyInfo.msg"
+ "msg/device/rc_control/ToggleInfo.msg"
+ "msg/device/rc_control/RcInfo.msg"
+ "msg/navigation/ControlMode.msg"
+ "msg/navigation/NavigationInfo.msg"
+ "msg/navigation/SpeedInfo.msg"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
