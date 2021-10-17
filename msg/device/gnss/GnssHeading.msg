@@ -1,0 +1,5 @@
+float64 heading_rad
+uint8 heading_type
+uint8 HEADING_TYPE_UNKNOWN = 0
+uint8 HEADING_TYPE_TRUE_NORTH = 1
+uint8 HEADING_TYPE_MAGNETIC_NORTH = 2

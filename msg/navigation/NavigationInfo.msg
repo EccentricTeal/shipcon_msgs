@@ -1,0 +1,4 @@
+std_msgs/Header header
+sensor_msgs/NavSatStatus status
+shipcon_msgs/GnssPosition position
+shipcon_msgs/GnssHeading heading
