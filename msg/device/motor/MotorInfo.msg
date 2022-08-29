@@ -4,7 +4,7 @@ string name
 string ip
 string netmask
 
-float64 rotspeed_rps
+float64 rotspeed_rpm
 float64 motor_speed_max
 float64 motor_speed_min
 

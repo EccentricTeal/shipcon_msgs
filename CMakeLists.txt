@@ -21,15 +21,16 @@ find_package( rosidl_default_generators REQUIRED )
 find_package( std_msgs )
 find_package( geometry_msgs )
 
+
 # Message Generation
 set(msg_files
  "msg/device/common/SignalStatus.msg"
- "msg/device/actuators/MotorCommand.msg"
- "msg/device/actuators/MotorHealth.msg"
- "msg/device/actuators/MotorInfo.msg"
- "msg/device/actuators/RudderCommand.msg"
- "msg/device/actuators/RudderHealth.msg"
- "msg/device/actuators/RudderInfo.msg"
+ "msg/device/motor/MotorCommand.msg"
+ "msg/device/motor/MotorHealth.msg"
+ "msg/device/motor/MotorInfo.msg"
+ "msg/device/rudder/RudderCommand.msg"
+ "msg/device/rudder/RudderHealth.msg"
+ "msg/device/rudder/RudderInfo.msg"
  "msg/device/gnss/GnssClock.msg"
  "msg/device/gnss/GnssHeading.msg"
  "msg/device/gnss/GnssPosition.msg"
