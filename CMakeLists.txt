@@ -28,6 +28,9 @@ set(msg_files
  "msg/device/motor/MotorCommand.msg"
  "msg/device/motor/MotorHealth.msg"
  "msg/device/motor/MotorInfo.msg"
+ "msg/device/propeller/PropellerCommand.msg"
+ "msg/device/propeller/PropellerHealth.msg"
+ "msg/device/propeller/PropellerInfo.msg"
  "msg/device/rudder/RudderCommand.msg"
  "msg/device/rudder/RudderHealth.msg"
  "msg/device/rudder/RudderInfo.msg"
@@ -45,8 +48,13 @@ set(msg_files
  "msg/navigation/SpeedInfo.msg"
 )
 
+set(srv_files
+  "srv/device/motor/GetMotorSpec.srv"
+)
+
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
   DEPENDENCIES std_msgs geometry_msgs
 )
 ament_package()

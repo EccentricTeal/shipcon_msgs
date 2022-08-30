@@ -1,9 +1,9 @@
 std_msgs/Header header
 
-float64 rotspeed_rpm
+float64 prop_pitch_rad
 float64 current_amp
 float64 voltage_volt
 float64 temprature_celdeg
 
-shipcon_msgs/MotorHealth motor_status
+shipcon_msgs/PropellerHealth prop_status
 shipcon_msgs/SignalStatus signal_status

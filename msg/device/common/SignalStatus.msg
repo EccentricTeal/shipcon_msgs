@@ -1,4 +1,4 @@
-int16 signal_status
+int16 status
 int16 SIGNAL_NORMAL = 0
 int16 SIGNAL_NO_SIGNAL = -1
 int16 SIGNAL_OVER_RANGE = -2
