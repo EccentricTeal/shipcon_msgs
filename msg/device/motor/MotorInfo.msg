@@ -1,5 +1,4 @@
 std_msgs/Header header
-
 float64 rotspeed_rpm
 float64 current_amp
 float64 voltage_volt

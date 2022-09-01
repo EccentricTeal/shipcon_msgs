@@ -35,6 +35,7 @@ set(msg_files
  "msg/device/rudder/RudderCommand.msg"
  "msg/device/rudder/RudderHealth.msg"
  "msg/device/rudder/RudderInfo.msg"
+ "msg/device/rudder/RudderInfoTwin.msg"
  "msg/device/gnss/GnssClock.msg"
  "msg/device/gnss/GnssHeading.msg"
  "msg/device/gnss/GnssPosition.msg"
@@ -51,6 +52,7 @@ set(msg_files
 
 set(srv_files
   "srv/device/motor/GetMotorSpec.srv"
+  "srv/device/motor/GetRudderSpec.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

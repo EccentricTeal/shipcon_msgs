@@ -1,0 +1,2 @@
+shipcon_msgs/RudderInfo port
+shipcon_msgs/RudderInfo stbd

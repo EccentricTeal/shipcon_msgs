@@ -1,0 +1,12 @@
+---
+string developper
+string type
+
+string ip
+string netmask
+
+float64 max_angle
+float64 min_angle
+string rudder_type
+string RUDDER_TYPE_SINGLE = "SINGLE RUDDER"
+string RUDDER_TYPE_TWIN = "VECTWIN RUDDER"
