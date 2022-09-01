@@ -1,10 +1,12 @@
 std_msgs/Header header
-float32 ang_roll
-float32 ang_pitch
-float32 ang_yaw
-float32 vel_roll
-float32 vel_pitch
-float32 vel_yaw
-float32 acc_surge
-float32 acc_sway
-float32 acc_heave
+float64 ang_roll_rad
+float64 ang_pitch_rad
+float64 ang_yaw_rad
+float64 vel_roll_rad
+float64 vel_pitch_rad
+float64 vel_yaw_rad
+float64 acc_surge
+float64 acc_sway
+float64 acc_heave
+
+shipcon_msgs/SignalStatus signal_status
