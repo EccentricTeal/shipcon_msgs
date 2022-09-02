@@ -1,3 +1,5 @@
+std_msgs/Header header
+
 float64 rudder_angle_rad
 float64 rudder_speed_rad_per_sec
 float64 current_amp
